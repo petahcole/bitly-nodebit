@@ -1,0 +1,20 @@
+{
+  "name": "bitly-race-average",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petahcole/bitly-race-average.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petahcole/bitly-race-average/issues"
+  },
+  "homepage": "https://github.com/petahcole/bitly-race-average#readme"
+}
