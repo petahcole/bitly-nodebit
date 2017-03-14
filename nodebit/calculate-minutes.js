@@ -5,8 +5,8 @@ module.exports = {
     array.forEach(time  =>  {
       times.push(parseTime(time))
     })
-    return Math.round(times.reduce((sum, a) =>  {
-      return sum + a
+    return Math.round(times.reduce((acc, a) =>  {
+      return acc + a
     }, 0)/times.length)
   }
 }

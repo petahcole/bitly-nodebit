@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "((./node_modules/.bin/mocha ./nodebit/test/nodebit.test.js && echo \"All tests are passing!\") || echo \"You have failing tests!\")"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/petahcole/bitly-race-average/issues"
   },
-  "homepage": "https://github.com/petahcole/bitly-race-average#readme"
+  "homepage": "https://github.com/petahcole/bitly-race-average#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.1.1"
+  }
 }
